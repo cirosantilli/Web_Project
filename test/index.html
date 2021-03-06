@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <script src="js/index.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <form name="myForm" action="demo_form.php" onsubmit="return validateForm()" method="post">
+        名字: <input type="text" name="fname">
+        <input type="submit" value="提交">
+    </form>
+    <hr>
+    <h2>输入1~10之间的数</h2>
+    <input id="numb">
+    <button type="button" onclick="myFunction()">提交</button>
+    <div id="fuck" class="cao"></div>
+    <hr>
+    <h5>可选数字</h5>
+    <input type="number" min="100" max="300" required>
+    <!-- <script>
+        var x= navigator;
+        document.write("浏览器:"+x.activeVRDisplays);
+    </script> -->
+</body>
+
+</html>

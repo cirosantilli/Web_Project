@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function blueOn() {
+            document.getElementById("table2").style.backgroundColor = "blue";
+        }
+
+        function redOn() {
+            document.getElementById("table2").style.backgroundColor = "red";
+        }
+
+        function greenOn() {
+            document.getElementById("table2").style.backgroundColor = "green";
+        }
+
+        function yellowOn() {
+            document.getElementById("table2").style.backgroundColor = "yellow";
+        }
+
+        function pinkOn() {
+            document.getElementById("table2").style.backgroundColor = "pink";
+        }
+    </script>
+</head>
+
+<body>
+    <table border="1">
+        <tr>
+            <td onclick="blueOn()" style="height: 40px; width: 40px; background-color:blue ;"></td>
+            <td onclick="redOn()" style="height: 40px; width: 40px; background-color:red ;"></td>
+            <td onclick="greenOn()" style="height: 40px; width: 40px; background-color:green ;"></td>
+            <td onclick="yellowOn()" style="height: 40px; width: 40px; background-color:yellow ;"></td>
+            <td onclick="pinkOn()" style="height: 40px; width: 40px; background-color:pink ;"></td>
+        </tr>
+        <tr>
+            <td id="table2" colspan="5" style="height: 180px; width: 180px;"></td>
+        </tr>
+    </table>
+</body>
+
+</html>

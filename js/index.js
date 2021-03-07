@@ -36,3 +36,23 @@
  * date:2020/3/6
  * 
  */
+
+ class Person {
+    constructor(firstName, lastName, age) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.age = age;
+    }
+    getName() {
+        var name = this.firstName + this.lastName;
+    }
+    sayHi() {
+        var name = this.getName();
+        var text = name + ":" + this.age;
+        return text;
+    }
+
+}
+var person = new Person("三", "张", 18);
+var fuck = person.sayHi();
+console.log(fuck);

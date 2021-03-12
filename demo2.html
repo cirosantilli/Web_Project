@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/demo2.css">
+</head>
+
+<body>
+    <div id="calculator">
+        <div class="LOGO">
+            <span class="name">简单的计算器</span>
+            <span class="verson">@Fucker</span>
+        </div>
+        <div id="shuRu">
+            <!--screen输入栏-->
+            <div class="screen">
+                <input type="text" id="screenName" name="screenName" class="screen">
+            </div>
+        </div>
+        <div id="keys">
+            <!-- j -->
+            <!--第一排-->
+            <input type="button" id="7" onclick="jsq(this.id)" value="7" class="buttons">
+            <input type="button" id="8" onclick="jsq(this.id)" value="8" class="buttons">
+            <input type="button" id="9" onclick="jsq(this.id)" value="9" class="buttons">
+            <input type="button" id="Back" onclick="tuiGe()" value="Back" class="buttons">
+            <input type="button" id="C" onclick="clearNum()" value="C" class="buttons" style="margin-right:0px">
+            <!--第二排-->
+            <input type="button" id="4" onclick="jsq(this.id)" value="4" class="buttons">
+            <input type="button" id="5" onclick="jsq(this.id)" value="5" class="buttons">
+            <input type="button" id="6" onclick="jsq(this.id)" value="6" class="buttons">
+            <input type="button" id="*" onclick="jsq(this.id)" value="X" class="buttons">
+            <input type="button" id="/" onclick="jsq(this.id)" value="/" class="buttons" style="margin-right:0px">
+            <!--第三排-->
+            <input type="button" id="1" onclick="jsq(this.id)" value="1" class="buttons">
+            <input type="button" id="2" onclick="jsq(this.id)" value="2" class="buttons">
+            <input type="button" id="3" onclick="jsq(this.id)" value="3" class="buttons">
+            <input type="button" id="+" onclick="jsq(this.id)" value="+" class="buttons">
+            <input type="button" id="-" onclick="jsq(this.id)" value="-" class="buttons" style="margin-right:0px">
+            <!--第四排-->
+            <input type="button" id="0" onclick="jsq(this.id)" value="0" class="buttons">
+            <input type="button" id="00" onclick="jsq(this.id)" value="00" class="buttons">
+            <input type="button" id="." onclick="jsq(this.id)" value="." class="buttons">
+            <input type="button" id="%" onclick="jsq(this.id)" value="%" class="buttons">
+            <input type="button" id="eva" onclick="eva()" value="=" class="buttons" style="margin-right:0px">
+        </div>
+        <div class="footer">
+            <span class="aside">欢迎使用JavaScript计算器</span>
+            <span class="link">
+                <a href="#" title="声明" target="_blank">反馈</a>
+            </span>
+        </div>
+    </div>
+</body>
+
+</html>

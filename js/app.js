@@ -17,4 +17,5 @@ class Person {
 }
 const person = new Person("三", "张", 18);
 const fuck = person.sayHi();
-console.log(fuck);
+// console.log(fuck);
+alert(fuck);
